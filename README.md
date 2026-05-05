@@ -1,3 +1,10 @@
-# Fraud_Analytics
-Federated Dual-Modal Anomaly Detection for Privacy-Preserving Health Insurance Fraud Analytics (DM-FAD)
-This repository implements a scalable cloud-based federated learning framework designed for secure and accurate health insurance fraud detection. The proposed Dual-Modal Federated Anomaly Detection (DM-FAD) system simultaneously analyzes structured claim data and unstructured textual documents by combining autoencoder-based anomaly detection for tabular features with BERT-based semantic embeddings extracted from OCR-processed records. Unlike traditional centralized systems, the framework operates across decentralized healthcare nodes using federated aggregation enhanced with differential privacy (ε = 1.2) and homomorphic encryption, ensuring data confidentiality and regulatory compliance (e.g., HIPAA). The architecture is deployed using AWS-native services for real-time scalability and secure computation. Experimental evaluation across distributed nodes demonstrates strong detection performance (F1-score: 0
+# DM-FAD: Federated Dual-Modal Anomaly Detection for Healthcare Insurance Fraud Analytics
+<br\>
+# 1. Overview <br\>
+DM-FAD is a federated learning-based fraud detection system integrating structured and unstructured data modalities. It ensures privacy preservation by decentralizing model training while achieving high fraud detection accuracy.
+# 2. System Components <br\>
+| Component           | Function              | Technology Used  |
+| ------------------- |:---------------------:| ----------------:|
+| Structured Pipeline | Processes claims data | Autoencoder      |
+| Text Pipeline       | Processes OCR documents |   BERT         |
+| Fusion Layer    | Combines outputs           |    Weighted scoring  |
