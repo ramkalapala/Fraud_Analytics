@@ -24,24 +24,24 @@ DM-FAD is a federated learning-based fraud detection system integrating structur
 | opencv-python    | Image processing           |    latest  |
 
 # 4. requirements.txt
-    numpy==1.24.4 <br\>
-    pandas==2.0.3 <br\>
-    scikit-learn==1.3.0 <br\>
-    matplotlib==3.7.2 <br\>
-    torch <br\>
-    transformers <br\>
-    pytesseract <br\>
-    opencv-python <br\>
+    numpy==1.24.4 
+    pandas==2.0.3 
+    scikit-learn==1.3.0 
+    matplotlib==3.7.2 
+    torch 
+    transformers 
+    pytesseract 
+    opencv-python 
 
 # 5. Folder Structure
-    DM-FAD-PROJECT/ <br\>
-    ├── FRAUD_ANALYTICS.ipynb <br\>
-    ├── requirements.txt <br\>
-    ├── README.md <br\>
-    ├── DATA/ <br\>
-    │   ├── claims.csv <br\>
-    │   └── documents/ <br\>
-    └── outputs/ <br\>
+    DM-FAD-PROJECT/ 
+    ├── FRAUD_ANALYTICS.ipynb 
+    ├── requirements.txt 
+    ├── README.md 
+    ├── DATA/ 
+    │   ├── claims.csv 
+    │   └── documents/ 
+    └── outputs/ 
 
 # 6. Execution Steps
     ## 6.1. Install dependencies
